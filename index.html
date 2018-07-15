@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>cms-bootstrap</title>
+    <style type="text/css">
+      body {
+        /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+        -ms-overflow-style: none;
+      }
+      body::-webkit-scrollbar{width:0}
+    </style>
   </head>
   <body>
     <div id="app"></div>
